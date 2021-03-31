@@ -1,7 +1,7 @@
-![pf2ub-khwyr.gif](https://upload-images.jianshu.io/upload_images/3258209-b266d3a3d58d56ad.gif?imageMogr2/auto-orient/strip/2/w/100)
+![pf2ub-khwyr.gif](https://github.com/CZXBigBrother/animals-merge-demo/blob/master/assets/init.gif?raw=true)
 # 实现功能我们需要先了解两个flutter控件Draggable 和 DragTarget
 从字面意思大概能看出,Draggable是可以拖动的,DragTarget是拖动的目标,就是接收Draggable的控件
-![image.png](https://upload-images.jianshu.io/upload_images/3258209-421bf538cf520699.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](https://github.com/CZXBigBrother/animals-merge-demo/blob/master/assets/init.jpeg?raw=true)
 只能接收不能拖动的控件我们就可以使用DragTarget,根据上面代码onAccept方法时接收到数据,然后刷新到界面
 ```
 DragTarget(
