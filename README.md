@@ -4,7 +4,9 @@
 # 实现功能我们需要先了解两个flutter控件Draggable 和 DragTarget
 从字面意思大概能看出,Draggable是可以拖动的,DragTarget是拖动的目标,就是接收Draggable的控件
 只能接收不能拖动的控件我们就可以使用DragTarget,根据上面代码onAccept方法时接收到数据,然后刷新到界面
-<img src="https://github.com/CZXBigBrother/animals-merge-demo/blob/master/assets/ddd.png" width="200" /><br/>
+<br/>
+<img src="https://github.com/CZXBigBrother/animals-merge-demo/blob/master/assets/ddd.png" width="300" />
+<br/>
 ```
 DragTarget(
         onWillAccept: (data) {
